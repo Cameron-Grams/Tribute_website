@@ -1,0 +1,110 @@
+ body {
+   background-color: #bfbfbf;
+   font-family: 'Crimson Text', serif;
+   font-size: 1.03em;
+ }
+
+ .heading {
+   width: 100%;
+   left: 0em;
+   top: 0em;
+   font-family: 'Old Standard TT', serif;
+   border: 1px solid #FFFFFF;
+   color: #FFFFFF;
+   position: fixed;
+   text-align: center;
+   padding: 1em;
+ }
+
+.top_photo {
+  position: relative;
+  top: 10em;
+  display: block;
+  margin: 0 auto 2em;
+}
+
+p.top_p {
+  text-align: center;
+}
+
+ .intro {
+   position: relative;
+   top: 10em;
+   display: block;
+   width: 75%;
+   border: 1px solid #0000ff;
+   padding: 0.5em;
+   margin: 0 auto 0;
+ }
+.main {
+  position: relative;
+  top: 10em;
+  display: inline-block;
+  width: 98%;
+  border: 1px solid #0000ff;
+  padding: 1em;
+}
+
+.first {
+  border: 1px solid #ffffff;
+  width: 45%;
+  float: left;
+  padding: 1em;
+  margin-left: 0.5em;
+
+}
+
+
+.right_side {
+  color: #000000;
+  margin-right: 0.5em;
+}
+
+
+.second {
+  border: 1px solid #ffffff;
+  width: 45%;
+  float: right;
+  /*diplay: block;*/
+  padding: 1em;
+}
+
+.img_1 {
+  width: 40%;
+  float: left;
+  display: block;
+  margin: 0 auto 0;
+}
+
+.img_2 {
+  display: block;
+  float: right;
+  margin: 0 auto 0;
+}
+
+.third {
+  border: 1px solid #ffffff;
+  width: 45%;
+  float: right;
+  clear: right;
+  padding: 1em;
+  margin: 1em 0 0 0;
+  text-align: center;
+}
+
+.img_3 {
+  display: block;
+  margin: 0 auto 0;
+}
+
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border: 1px solid #FFFFFF;
+  font-family: Arial;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em;
+}
