@@ -1,5 +1,5 @@
  body {
-   background-color: #bfbfbf;
+   background-color: #405c45;
    font-family: 'Crimson Text', serif;
    font-size: 1.03em;
  }
@@ -9,49 +9,53 @@
    left: 0em;
    top: 0em;
    font-family: 'Old Standard TT', serif;
+   font-size: 1.15em;
    border: 1px solid #FFFFFF;
-   color: #FFFFFF;
-   position: fixed;
+   background-color: #b38600;
+   color: #000000;
+   position: absolute;;
    text-align: center;
-   padding: 1em;
+   padding-top: 1em;
+   padding-bottom: 0  ;
+   /*padding: 5em auto 1em;*/
  }
 
 .top_photo {
   position: relative;
-  top: 10em;
+  top: 8.5em;
   display: block;
-  margin: 0 auto 2em;
+  border: 1px solid #e6ac00;
+  margin: 0 auto 0em;
 }
 
-p.top_p {
-  text-align: center;
-}
 
  .intro {
    position: relative;
-   top: 10em;
+   top: 8em;
    display: block;
    width: 75%;
-   border: 1px solid #0000ff;
-   padding: 0.5em;
+   /*border: 1px solid #0000ff;*/
+   /*padding: 0.5em;*/
    margin: 0 auto 0;
+   text-align: center;
  }
 .main {
   position: relative;
-  top: 10em;
+  top: 7em;
   display: inline-block;
   width: 98%;
-  border: 1px solid #0000ff;
+  /*border: 1px solid #0000ff;*/
   padding: 1em;
 }
 
 .first {
-  border: 1px solid #ffffff;
+  border: 1px solid #8c8c8c;
   width: 45%;
   float: left;
   padding: 1em;
-  margin-left: 0.5em;
-
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  border-radius: 1em;
 }
 
 
@@ -62,34 +66,39 @@ p.top_p {
 
 
 .second {
-  border: 1px solid #ffffff;
+  /*border: 1px solid #ffffff;*/
   width: 45%;
   float: right;
   /*diplay: block;*/
   padding: 1em;
+  text-align: center;
+  text-decoration: none;
 }
 
 .img_1 {
-  width: 40%;
-  float: left;
+  /*width: 40%;*/
+  /*float: right;*/
   display: block;
   margin: 0 auto 0;
+  border-radius: 1em;
 }
 
 .img_2 {
   display: block;
+  border: 1px solid yellow;
   float: right;
   margin: 0 auto 0;
 }
 
 .third {
-  border: 1px solid #ffffff;
+  /*border: 1px solid #ffffff;*/
   width: 45%;
   float: right;
   clear: right;
   padding: 1em;
   margin: 1em 0 0 0;
   text-align: center;
+  text-decoration: none;
 }
 
 .img_3 {
@@ -98,7 +107,7 @@ p.top_p {
 }
 
 
-.footer {
+/*.footer {
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -107,4 +116,4 @@ p.top_p {
   color: #FFFFFF;
   text-align: center;
   padding: 1em;
-}
+}*/
