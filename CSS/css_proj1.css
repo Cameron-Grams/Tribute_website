@@ -2,6 +2,7 @@
    background-color: #405c45;
    font-family: 'Crimson Text', serif;
    font-size: 1.03em;
+   color: #bfbfbf;
  }
 
  .heading {
@@ -60,7 +61,7 @@
 
 
 .right_side {
-  color: #000000;
+  color: #bfbfbf;
   margin-right: 0.5em;
 }
 
@@ -73,6 +74,11 @@
   padding: 1em;
   text-align: center;
   margin-top: 2em;
+  color: #bfbfbf;
+}
+
+p {
+  color: #bfbfbf;
 }
 
 .img_1 {
@@ -92,12 +98,12 @@
 
 a:link {
   text-decoration: none;
-  color: #000000;
+  color: #bfbfbf;
 }
 
 a:visited {
   text-decoration: none;
-  color: #000000;
+  color: #bfbfbf;
 }
 
 .third {
