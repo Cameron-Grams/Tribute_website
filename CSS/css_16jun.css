@@ -8,16 +8,29 @@
   text-align: center;
 }
 
+#headings1 {
+  background-color: #999999;
+}
+
+#headings2 {
+  background-color: #999999;
+}
+
 #left_panel {
-  float:left;
+  /*float:left;*/
+  padding-left: 20em;
 }
 
 #right_panel {
-  float:right;
+  /*float:right;*/
+  clear:both;
 }
 
 #upper_right_panel {
-  float:right;
+  /*float:right;*/
+  background-color: #e6e6e6;
+  text-align: center;
+
 }
 
 #purple_heart {
@@ -29,6 +42,7 @@
   clear:right;
   margin-bottom: 0.5em;
   text-align: center;
+  background-color: #e6e6e6;
 
 }
 
