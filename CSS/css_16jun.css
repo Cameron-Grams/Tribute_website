@@ -17,20 +17,16 @@
 }
 
 #left_panel {
-  /*float:left;*/
   padding-left: 20em;
 }
 
 #right_panel {
-  /*float:right;*/
   clear:both;
 }
 
 #upper_right_panel {
-  /*float:right;*/
   background-color: #e6e6e6;
   text-align: center;
-
 }
 
 #purple_heart {
@@ -38,12 +34,10 @@
 }
 
 #lower_right_panel {
-  /*float:right;*/
   clear:right;
   margin-bottom: 0.5em;
   text-align: center;
   background-color: #e6e6e6;
-
 }
 
 #eulogy_image {
